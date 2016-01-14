@@ -11,9 +11,9 @@ namespace ELEC490ParkingSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //myTextBox.Text = "goodbye";
-            Data data = new Data();
-            myTextBox.Text = data.getNumSpots(20).ToString();
+            myTextBox.Text = "goodbye";
+            //Data data = new Data();
+            //myTextBox.Text = data.getNumSpots(20).ToString();
 
         }
         protected void refreshButton_Click(object sender, EventArgs e)
